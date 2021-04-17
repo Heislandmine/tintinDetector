@@ -16,7 +16,7 @@ args = parser.parse_args()
 model_path = "./model/model_v4_003.tflite"
 
 font_size = 40
-font = ImageFont.truetype("YuGothL.ttc", size=font_size)
+font = ImageFont.truetype("./font/IPAMTTC00303/ipam.ttc", size=font_size)
 
 detector = Detector(model_path)
 
